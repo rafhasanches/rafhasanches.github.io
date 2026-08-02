@@ -29,3 +29,33 @@ p {
     font-size: 1.2rem;
     color: #cbd5e1;
 }
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 650px;
+    line-height: 1.6;
+    margin: 0 auto 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #2563eb;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+}

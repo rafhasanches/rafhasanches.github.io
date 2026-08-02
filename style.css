@@ -113,6 +113,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
     padding: 20px 60px;
     display: flex;
     justify-content: space-between;
@@ -276,6 +277,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.hamburger {
+    display: none;
+}
+
 @media (max-width: 768px) {
 
     /* Stack cards */
@@ -291,7 +296,7 @@ html {
     .navbar {
         flex-direction: column;
         gap: 5px;
-        text-align: center;
+        padding: 20px;
     }
 
     .logo {
@@ -332,13 +337,4 @@ html {
 
     
 
-}
-
-.hamburger {
-    display: none;
-}
-
-.navbar {
-    position: relative;
-    z-index: 10;
 }

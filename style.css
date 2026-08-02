@@ -290,7 +290,7 @@ html {
     /* Navbar */
     .navbar {
         flex-direction: column;
-        gap: 15px;
+        gap: 5px;
         text-align: center;
     }
 
@@ -302,6 +302,7 @@ html {
         display: block;
         font-size: 2rem;
         cursor: pointer;
+        color: white;
     }
 
     .nav-links {
@@ -314,7 +315,6 @@ html {
     .nav-links.active {
         display: flex;
     }
-
 
     /* Hero buttons */
     .buttons {
@@ -329,6 +329,8 @@ html {
         max-width: 300px;
         text-align: center;
     }
+
+    
 
 }
 

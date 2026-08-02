@@ -56,11 +56,12 @@ p {
     background-color: #2563eb;
     padding: 12px 24px;
     border-radius: 8px;
-    transition: 0.3s;
+    transition: al 0.3s ease;
 }
 
 .button:hover {
     background-color: #1d4ed8;
+    transform: translateY(-2px);
 }
 
 .about {
@@ -271,3 +272,9 @@ p {
     font-size: 0.9rem;
     border-top: 1px solid #1e293b;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+

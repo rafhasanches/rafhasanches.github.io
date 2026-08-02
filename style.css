@@ -127,7 +127,6 @@ p {
 
 .nav-links {
     display: flex;
-    list-style: none;
     gap: 30px;
 }
 
@@ -279,6 +278,7 @@ html {
 
 @media (max-width: 768px) {
 
+    /* Stack cards */
     .education-container,
     .projects-container,
     .skills-container {
@@ -290,7 +290,7 @@ html {
     /* Navbar */
     .navbar {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         text-align: center;
     }
 
@@ -298,10 +298,21 @@ html {
         font-size: 1.3rem;
     }
 
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
     .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
 
@@ -319,23 +330,13 @@ html {
         text-align: center;
     }
 
-    .hamburger {
-        display: block;
-        font-size: 2rem;
-        cursor: pointer;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
 }
 
 .hamburger {
     display: none;
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
 }

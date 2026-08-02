@@ -182,3 +182,21 @@ p {
     color: #60a5fa;
     font-size: 0.9rem;
 }
+
+.project-links {
+    margin-top: 20px;
+}
+
+.project-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2563eb;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.project-button:hover {
+    background-color: #1d4ed8;
+}

@@ -262,3 +262,12 @@ p {
 .contact-button:hover {
     background-color: #1d4ed8;
 }
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    border-top: 1px solid #1e293b;
+}

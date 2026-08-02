@@ -75,3 +75,32 @@ p {
 .about p {
     margin-bottom: 20px;
 }
+
+.skills {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.skill-card {
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+.skill-card h3 {
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 1rem;
+}

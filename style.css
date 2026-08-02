@@ -13,16 +13,13 @@ body {
 }
 
 section {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 80px 20px;
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 100px 40px 60px;
     text-align: center;
 }
 

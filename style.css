@@ -286,5 +286,26 @@ html {
         align-items: center;
     }
 
+
+    /* Navbar */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+
+    /* Hero buttons */
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .button {
+        width: 80%;
+        max-width: 300px;
+        text-align: center;
+    }
+
 }
 

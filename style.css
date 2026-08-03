@@ -294,7 +294,7 @@ html {
 @media (max-width: 768px) {
 
     body {
-    padding-top: 60px;
+    padding-top: 70px;
     }    
 
     /* Stack cards */
@@ -352,7 +352,7 @@ html {
     /* Mobile spacing */
     .home {
         min-height: auto;
-        padding: 30px 20px;
+        padding: 20px;
     }
 
     .container {

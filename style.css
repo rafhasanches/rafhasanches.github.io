@@ -293,6 +293,10 @@ html {
 
 @media (max-width: 768px) {
 
+    body {
+    padding-top: 20px;
+    }    
+
     /* Stack cards */
     .education-container,
     .projects-container,
@@ -345,6 +349,24 @@ html {
         text-align: center;
     }
 
+    /* Mobile spacing */
+    .home {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .about {
+        margin: 20px auto;
+        padding: 20px;
+    }
     
 
 }
